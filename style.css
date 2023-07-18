@@ -323,8 +323,13 @@ footer{
     height: 60vh;
     color: #FFF;
     background: #0B0223;
+    text-align: center;
+    align-items: center;
 }
-
+.footer_second_row ul, .footer_fourth_row ul{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* Responsive design */
