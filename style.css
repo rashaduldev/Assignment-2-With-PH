@@ -21,6 +21,9 @@ button {
     border: none;
     outline: none;
 }
+b{
+    font-size: 28px;
+}
 
 /* Common css End */
 
@@ -155,6 +158,51 @@ button {
 .right_coloum img {
     width: 70%;
     /* height: 500px; */
+}
+/* Another banner part */
+.another_banner{
+    margin: 20px 120px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+.first_col img{
+    width: 70%;
+}
+.last_col{
+    text-align: right;
+}
+.last_col h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.last_col p{
+    width: 520px;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.last_col button{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
 
 /* Header part End */
