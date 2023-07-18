@@ -1,20 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul,li,ol{
+
+ul,
+li,
+ol {
     list-style: none;
 }
-span{
+
+span {
     color: red;
 }
+
+button {
+    border: none;
+    outline: none;
+}
+
 /* Common css End */
 
 /* Header part start */
-.row{
+.row {
     display: flex;
     justify-content: space-around;
     height: 80px;
@@ -23,41 +34,127 @@ span{
     align-items: center;
     /* border: 1px solid red; */
 }
-.h_img{
+
+.h_img {
     display: flex;
     gap: 20px;
 }
-.h_img h2{
+
+.h_img h2 {
     font-size: 45px;
-font-weight: 700;
+    font-weight: 700;
 }
-.h_img img{
+
+.h_img img {
     width: 100px;
     height: 40px;
 }
-.navber ul{
+
+.navber ul {
     display: flex;
     align-items: center;
 }
-.navber ul li{
+
+.navber ul li {
     color: #3C354F;
     margin-right: 20px;
     font-size: 18px;
 }
-.navber ul li a{
+
+.navber ul li a {
     color: #3C354F;
 }
-.h_icon{
+
+.h_icon {
     padding: 10px;
-    display: flex;  
+    display: flex;
     width: 200px;
     gap: 12px;
     /* height: 56px; */
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.h_icon a{
-    /* margin-right: 20px; */
+
+/* This is Banner part */
+.banner {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.left_coloum {
+    background-image: url("./images/header/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.ic {
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.dev h4 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.dev h2 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dev .btn>button {
+    margin: 20px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.right_coloum {
+    width: 50%;
+}
+
+.right_coloum img {
+    width: 70%;
+    /* height: 500px; */
 }
 
 /* Header part End */
