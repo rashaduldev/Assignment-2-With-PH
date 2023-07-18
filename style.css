@@ -259,7 +259,7 @@ b {
 /* Horse game part */
 .ss {
     height: 100vh;
-    border: 1px solid red;
+
 }
 
 .horse_container {
@@ -294,8 +294,29 @@ b {
     top: -200px;
 }
 /* Icon part */
+.icon_contain{
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    border: 1px solid red;
+    align-items: center;
+    text-align: right;
+    gap: 30px;
+}
+.icon{
+    text-align: right;
+}
+.icon a{
+    
+    display: flex;
+    text-align: right;
+    align-items: center;
 
-
+}
+.icon a img{
+    width: 50px;
+}
 
 
 
@@ -358,5 +379,8 @@ b {
         position: relative;
         left: 650px;
         top: -200px;
+    }
+    .ss{
+        height: auto;
     }
 }
