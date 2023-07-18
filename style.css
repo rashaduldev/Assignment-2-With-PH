@@ -318,6 +318,12 @@ b {
     width: 50px;
 }
 
+/* footer part */
+footer{
+    height: 60vh;
+    color: #FFF;
+    background: #0B0223;
+}
 
 
 
