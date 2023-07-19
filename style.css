@@ -78,104 +78,108 @@ b {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-
-/* This is Banner part */
-.banner {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+.h_icon  img{
+    cursor: pointer;
 }
 
-.left_coloum {
+/* This is Banner part */
+.banner{
+    border: 1px solid red;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+    border: 1px solid green;
+    width: 50%;
     background-image: url("./images/header/Group\ 14.png");
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
+    height: 500px;
 }
-
-.ic {
-    display: flex;
-    text-align: center;
-    margin-left: 25%;
-    color: #534C64;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: lowercase;
-}
-
-.dev h4 {
-    color: #0B0223;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-.dev h2 {
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 95px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.dev .btn>button {
-    margin: 20px;
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-}
-
-.right_coloum {
+.banner_img{
+    border: 1px solid rgb(20, 27, 176);
     width: 50%;
 }
-
-.right_coloum img {
-    width: 70%;
-    /* height: 500px; */
+.banner_img img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Another banner part */
-.another_banner {
-    margin: 20px 120px;
-    /* border: 1px solid red; */
+.second_banner{
+    max-width: 1400px;
+   min-height: 500px;
+    border: 1px solid gray;
+    margin: 50px auto 0;
     display: flex;
-    justify-content: space-around;
-
+    text-align: right;
     align-items: center;
+}
+.banner_first{
+    width: 60%;
+}
+.banner_first img{
+    width: 100%;
+    height: 100%;
+}
+.banner_last{
+    width: 40%;
+}
+.banner_last h2{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner_last p{
+    /* width: 520px; */
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+margin: 15px 0px;
+}
+.banner_last button{
+    margin: 15px 0px;
+padding: 21px 40px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.banner_last h3{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+}
+.another_banner {
+    max-width: 70%;
+    min-height: 500px;
+    display: flex;    
 }
 
 .first_col img {
-    width: 100%;
+    width: 70%;
 }
 
 .last_col {
+    width: 30%;
     text-align: right;
 }
 
@@ -354,14 +358,10 @@ footer{
         flex-direction: column-reverse;
         margin: 0 auto;
     }
-
-    .first_col img {
-        width: 100%;
-    }
-
+/* 
     .another_banner {
         flex-direction: column;
-    }
+    } */
 
     .last_col {
         text-align: center;
