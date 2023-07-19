@@ -605,8 +605,15 @@ font-weight: 600;
 
 /* Medium Device Responsive */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .row{
+    .row {
+        flex-direction: column;
+        margin: 0 auto;
         width: 100%;
+        height: auto;
+    }
+    .navber ul {
+        /* flex-direction: column; */
+        margin: 30px 0px;
     }
     .online_game_container{
         height: auto;
@@ -614,5 +621,16 @@ font-weight: 600;
     .card{
         width: auto;
         height: auto;
+    }
+    .banner_last {
+        text-align: center;
+    }
+    /* second banner */
+    .banner_last {
+        text-align: center;
+        
+    }
+    .second_banner{
+        flex-direction: row-reverse;
     }
 }
