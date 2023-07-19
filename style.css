@@ -377,18 +377,33 @@ footer {
     background: #0B0223;
     text-align: center;
     align-items: center;
+    border: 1px solid red;
+}
+.footer_container{
+    border: 1px solid red;
+    padding: 50px;
 }
 
 .foot_con {
+    text-align: center;
+    justify-content: space-around;
     display: flex;
-    gap: 20px;
+    margin: 40px 130px;
 }
 
-.footer_second_row ul,
-.footer_fourth_row ul {
+.footer_second_row ul {
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin: 15px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.footer_fourth_row ul{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -472,17 +487,35 @@ footer {
     }
 
     .icon_contain {
-        gap: 5px;
+        gap: 0px;
     }
 
     .icon {
-
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         width: 108px;
-        height: 80px;
-
+        /* height: 80px; */
+        margin: 0 auto;
+    }
+    .icon a img{
+        width: 30px;
+    }
+    .icon a {
+        font-size: 8px;
     }
     .icon_contain{
       
         flex-wrap: wrap;
+    }
+    .icon:hover {
+        border: 1px solid red;
+        border-radius: 2rem;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        font-weight: 600;
     }
 }
