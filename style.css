@@ -313,7 +313,7 @@ font-weight: 600;
 .ss {
     padding: 0 60px;
 }
-
+/* Horse part */
 .horse_container {
     display: flex;
     text-align: right;
@@ -515,6 +515,9 @@ font-weight: 600;
     .horse_container {
         flex-direction: column;
     }
+    .fst_coloum{
+        text-align: center;
+    }
 
     .scnd_coloum {
         width: 300px;
@@ -632,5 +635,17 @@ font-weight: 600;
     }
     .second_banner{
         flex-direction: row-reverse;
+    }
+    /* card part */
+    .game_card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* Horse part */
+    .horse_container {
+        flex-direction: column-reverse;
+        margin: 70px 0px;
+    }
+    .fst_coloum{
+        margin-top: 50px;
     }
 }
