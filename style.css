@@ -107,9 +107,6 @@ b {
 
 .banner_text {
     width: 100%;
-    /* background-image: url("./images/header/Group\ 14.png");
-    background-repeat: no-repeat;
-    background-size: contain; */
     height: 100%;
     position: relative;
 
@@ -159,7 +156,7 @@ b {
 }
 
 .banner_img {
-    border: 1px solid rgb(20, 27, 176);
+    /* border: 1px solid rgb(20, 27, 176); */
     width: 100%;
 }
 
@@ -270,7 +267,6 @@ b {
 
 .card {
     padding: 20px;
-    /* gap: 20px; */
     height: 410px;
     width: 90%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -284,19 +280,15 @@ b {
 
 .card img {
     width: 100%;
-    /* margin-top: 20px; */
-    /* gap: 20px; */
 }
-/* .overlay img{
-    position: relative;
-} */
-/* .icon_icon{
-    position: absolute;
-    top: 2px;
-} */
+
+.icon_icon i{
+    font-size: 22px;
+
+}
 .icon_icon p{
     text-align: center;
-font-size: 20px;
+font-size: 24px;
 font-style: normal;
 font-weight: 600;
 }
@@ -304,6 +296,7 @@ font-weight: 600;
     position: relative;
 }
 .icon_icon{
+    cursor: pointer;
     border-radius: 16px;
     position: absolute;
     width: 100%;
@@ -317,21 +310,6 @@ font-weight: 600;
     justify-content: center;
     color: #fff;
 }
-/* .icon_icon {
-    position: relative;
-    background-color: #0000001d;
-    width: 200px;
-    height: 200px;
-  }
-  .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 24px;
-  } */
-/* Horse game part */
 .ss {
     padding: 0 60px;
 }
@@ -373,6 +351,7 @@ font-weight: 600;
 
 /* Icon part */
 .icon_contain {
+    /* height: 50vh; */
     margin-top: 50px;
     padding: 50px 0px;
     display: flex;
@@ -619,5 +598,21 @@ font-weight: 600;
     }
     .footer_row p{
         width: 200px;
+    }
+}
+
+
+
+/* Medium Device Responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .row{
+        width: 100%;
+    }
+    .online_game_container{
+        height: auto;
+    }
+    .card{
+        width: auto;
+        height: auto;
     }
 }
